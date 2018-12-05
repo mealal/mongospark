@@ -1,6 +1,6 @@
 <h2>Using Spark Magellan (https://github.com/harsha2010/magellan) for processing MongoDB GeoJSON data</h2>
 
-Used data from the folowoing article:<br/>
+Used data from the following article:<br/>
 https://docs.mongodb.com/manual/tutorial/geospatial-tutorial/<br/>
 
 The following files were imported into MongoDB data database:<br/>
