@@ -1,6 +1,6 @@
 # Using Spark [Magellan](https://github.com/harsha2010/magellan) for processing MongoDB GeoJSON data
 
-Used data from the following article:[MongoDB Geospatial Tutorial](https://docs.mongodb.com/manual/tutorial/geospatial-tutorial/).
+Used data from the following article: [MongoDB Geospatial Tutorial](https://docs.mongodb.com/manual/tutorial/geospatial-tutorial/).
 
 The following files were imported into MongoDB data database:
 [neighborhoods.json](https://raw.githubusercontent.com/mongodb/docs-assets/geospatial/neighborhoods.json),
@@ -8,7 +8,7 @@ The following files were imported into MongoDB data database:
 
 ### Spark server/shell commands
 ```bash
-spark-shell --packages harsha2010:magellan:1.0.4-s_2.11,org.mongodb.spark:mongo-spark-connector_2.11:2.3.1<br/>
+spark-shell --packages harsha2010:magellan:1.0.4-s_2.11,org.mongodb.spark:mongo-spark-connector_2.11:2.3.1
 ```
 ```scala
 import org.apache.spark.sql.SparkSession
